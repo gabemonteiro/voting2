@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <meta charset="utf-8">
+    <title>VOTER FORM</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="candidates">
+        <div id="voteCard">
+          <h1>Election Candidates</h1>
+          <input type="radio" name="candidates" value="steve"> Steve
+          <input type="radio" name="candidates" value="mike"> Mike
+          <input type="radio" name="candidates" value="joe"> Joe
+          <div>
+            <button type="submit" class="btn btn-primary">VOTE!</button>
+          </div>
+        </div>
+      </form>
+      <div id="under-18">
+        <h1>Sorry, you are not old enough to vote yet.</h1>
+
+        <p>Here is some information to educate yourself on voting.</p>
+        <a href="https://en.wikipedia.org/wiki/Elections_in_the_United_States">US Elections</a>
+      </div>
+      <div id="steveVote">
+        <h1>Thanks for voting for Steve</h1>
+      </div>
+      <div id="mikeVote">
+        <h1>Thanks for voting for Mike</h1>
+      </div>
+      <div id="joeVote">
+        <h1>Thanks for voting for Joe</h1>
+      </div>
+    </div>
+  </body>
+</html>

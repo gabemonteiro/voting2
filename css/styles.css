@@ -1,0 +1,15 @@
+#voteCard, #under-18 {
+  display: none;
+}
+
+#steveVote {
+  display: none;
+}
+
+#mikeVote {
+  display: none;
+}
+
+#joeVote {
+  display: none;
+}
